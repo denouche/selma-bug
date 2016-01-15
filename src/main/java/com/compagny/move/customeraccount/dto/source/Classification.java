@@ -1,11 +1,7 @@
 
 package com.compagny.move.customeraccount.dto.source;
 
-import java.io.Serializable;
-
-public class Classification
-    implements Serializable
-{
+public class Classification {
 
     protected String code;
     protected Integer type;

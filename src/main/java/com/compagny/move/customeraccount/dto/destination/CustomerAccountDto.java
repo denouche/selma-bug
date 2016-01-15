@@ -1,19 +1,17 @@
 package com.compagny.move.customeraccount.dto.destination;
 
-import javax.xml.bind.annotation.XmlRootElement;
 import java.io.Serializable;
 
-@XmlRootElement
 public class CustomerAccountDto implements Serializable {
 
-    private NaturalPersonClassificationsDto naturalPersonClassifications;
+    private NaturalPersonClassificationsDto classificationList;
 
-	public NaturalPersonClassificationsDto getNaturalPersonClassifications() {
-		return naturalPersonClassifications;
+	public NaturalPersonClassificationsDto getClassificationList() {
+		return classificationList;
 	}
 
-	public void setNaturalPersonClassifications(NaturalPersonClassificationsDto naturalPersonClassifications) {
-		this.naturalPersonClassifications = naturalPersonClassifications;
+	public void setClassificationList(NaturalPersonClassificationsDto classificationList) {
+		this.classificationList = classificationList;
 	}
 
 }

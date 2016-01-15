@@ -1,14 +1,11 @@
 
 package com.compagny.move.customeraccount.dto.source;
 
-import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
 
 
-public class ClassificationList
-    implements Serializable
-{
+public class ClassificationList {
 
     protected List<Classification> classification;
 
